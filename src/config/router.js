@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../screens/Home/home";
-import App from "../screens/App/musicapp";
+import Musicapp from "../screens/App/musicapp";
+
 
 const router = createBrowserRouter([
   {
@@ -9,7 +10,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/app",
-    element: <musicapp/>
+    element: <Musicapp/>
   }
 ]);
 
