@@ -4,7 +4,7 @@ import DialogButton from './components/dialogButton/index.js.js';
 import React, { useState,useEffect } from 'react';
 
 
-function musicapp() { 
+function Musicapp() { 
     const [filePath, setFile] = useState()
     
     const openDialog = () => {
@@ -43,4 +43,4 @@ function musicapp() {
     }
     
 
-export default musicapp;
+export default Musicapp;
